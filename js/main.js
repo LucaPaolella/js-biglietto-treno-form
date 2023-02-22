@@ -4,8 +4,6 @@ let age = document.getElementById("age");
 let km = document.getElementById("km");
 let create = document.getElementById("create");
 
-
-
 document.getElementById("create").addEventListener('click',
 function () {
     console.log(age.value)
@@ -19,6 +17,21 @@ function () {
     else if (AgeValue < 18){
         price = parseInt (KmValue * 0.042)
     }
-    console.log(price)
+    console.log(price);
 });
 
+let cost = document.getElementById("cost");
+let TypeTicket = document.getElementById("type-ticket");
+
+let CostValue=cost.value;
+let PriceValue= price.value; 
+
+CostValue = PriceValue;
+console.log(price);
+
+if (AgeValue >= 65){
+    TypeTicket.value = "Anziano"
+}
+else if (AgeValue < 18){
+    TypeTicket.value = "Minorenne"
+}
