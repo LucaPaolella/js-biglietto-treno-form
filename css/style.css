@@ -1,0 +1,44 @@
+/*reset*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*general*/
+body{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    margin: 50px;
+}
+
+/*main*/
+
+button{
+    margin: 20px;
+    margin-top: 60px;
+}
