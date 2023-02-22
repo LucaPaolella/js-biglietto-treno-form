@@ -1,11 +1,11 @@
 'use strict';
 
-let age = getElementById(age);
-let km = getElementById(km);
-let create = getElementById(create);
+let age = document.getElementById("age");
+let km = document.getElementById("km");
+let create = document.getElementById("create");
 
 
 
-create.addEventListener('click',
+document.getElementById("create").addEventListener('click',
 function () {});
 
