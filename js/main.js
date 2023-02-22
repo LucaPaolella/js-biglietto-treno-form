@@ -2,8 +2,10 @@
 
 let age = getElementById(age);
 let km = getElementById(km);
+let create = getElementById(create);
 
 
-addEventListener('click', (event) => {});
-getElementById(km)
+
+create.addEventListener('click',
+function () {});
 
