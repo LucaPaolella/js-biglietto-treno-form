@@ -34,6 +34,11 @@ h1{
 .container{
     background-color: white;
     margin: 50px;
+    padding: 20px;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 /*main*/
@@ -41,4 +46,22 @@ h1{
 button{
     margin: 20px;
     margin-top: 60px;
+}
+
+.container-name{
+    background-color: #555555;
+    padding-bottom: 30px;
+}
+
+.info{
+    margin-top: 50px;
+    
+}
+
+.box-info{
+    border: 1px solid #555555;
+}
+
+.container-name>h3{
+    margin-top: -20px;
 }
