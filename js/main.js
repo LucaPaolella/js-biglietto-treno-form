@@ -34,7 +34,7 @@ document.getElementById("create").addEventListener('click',
 
         
         
-        
+          
 
         let CostValue = cost.value;
         let PriceValue = price.value;
