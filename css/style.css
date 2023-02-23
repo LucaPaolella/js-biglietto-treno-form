@@ -65,3 +65,11 @@ button{
 .container-name>h3{
     margin-top: -20px;
 }
+
+.none{
+    display: none;
+}
+
+.show{
+    display: block;
+}
